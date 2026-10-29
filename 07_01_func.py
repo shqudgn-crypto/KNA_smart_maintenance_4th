@@ -18,3 +18,36 @@ def greet():
 
 greet()
 greet()
+
+num = 2
+print("=" * 3, f"실습 {num}", "=" * 3)  # 반복 코드를 함수로 정리하기
+def start_check():
+    print("점검을 시작합니다")
+    print("안전 장비를 확인하세요")
+    print("기록을 준비하세요")
+start_check()
+start_check()
+
+num = 3
+print("=" *3,f"실습 {num}","=" *3)
+# hello         # NameError (정의 전 호출 시)
+def hello():
+    print("안녕하세요")
+
+hello()
+hello()
+
+num = 4
+print("=" *3,f"실습 {num}","=" *3)
+def line():
+    print("=" *10)
+
+def check():
+    print("점검을 시작합니다")
+    print("기록을 준비하세요")    
+
+line()
+check()
+
+line()
+check()
